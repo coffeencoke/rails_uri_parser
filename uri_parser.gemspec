@@ -12,4 +12,6 @@ Gem::Specification.new do |gem|
   gem.name          = "uri_parser"
   gem.require_paths = ["lib"]
   gem.version       = UriParser::VERSION
+  gem.add_dependency 'rails', '~> 3.2'
+  gem.add_development_dependency('rspec', "~> 2.11")
 end
