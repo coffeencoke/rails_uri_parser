@@ -1,4 +1,4 @@
-# UriParser
+# RailsUriParser
 
 TODO: Write a gem description
 
@@ -6,7 +6,7 @@ TODO: Write a gem description
 
 Add this line to your application's Gemfile:
 
-    gem 'uri_parser'
+    gem 'rails_uri_parser'
 
 And then execute:
 
@@ -14,7 +14,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install uri_parser
+    $ gem install rails_uri_parser
 
 ## Usage
 

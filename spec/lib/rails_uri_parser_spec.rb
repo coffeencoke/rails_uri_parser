@@ -1,8 +1,6 @@
-require_relative '../../lib/uri_parser'
+require_relative '../../lib/rails_uri_parser'
 
-#require 'action_controller/metal/exceptions'
-
-describe UriParser do
+describe RailsUriParser do
   describe 'getting the id from a board uri' do
     subject { described_class.get_id(uri) }
 

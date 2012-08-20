@@ -1,3 +1,3 @@
-module UriParser
+module RailsUriParser
   VERSION = "1.0.0"
 end
