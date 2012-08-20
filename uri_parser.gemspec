@@ -5,6 +5,7 @@ Gem::Specification.new do |gem|
   gem.authors       = ["Matt Simpson"]
   gem.email         = ["matt.simpson3@gmail.com"]
   gem.description   = %q{Provides simple parsing for our use of URIs in our RESTful APIs}
+  gem.summary       = %q{Provides simple parsing for our use of URIs in our RESTful APIs}
   gem.homepage      = "https://github.com/ionicmobile/uri_parser"
 
   gem.files         = %w(lib/uri_parser.rb lib/uri_parser/version.rb)
