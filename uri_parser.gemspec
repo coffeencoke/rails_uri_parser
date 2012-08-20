@@ -2,15 +2,13 @@
 require File.expand_path('../lib/uri_parser/version', __FILE__)
 
 Gem::Specification.new do |gem|
-  gem.authors       = ["Ionic Mobile Developer"]
-  gem.email         = ["ionic-mobile-dev@ace-01.asolutions.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
-  gem.homepage      = ""
+  gem.authors       = ["Matt Simpson"]
+  gem.email         = ["matt.simpson3@gmail.com"]
+  gem.description   = %q{Provides simple parsing for our use of URIs in our RESTful APIs}
+  gem.homepage      = "https://github.com/ionicmobile/uri_parser"
 
-  gem.files         = `git ls-files`.split($\)
-  gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
-  gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
+  gem.files         = %w(lib/uri_parser.rb lib/uri_parser/version.rb)
+  gem.test_files    = %w(spec/lib/uri_parser_spec.rb)
   gem.name          = "uri_parser"
   gem.require_paths = ["lib"]
   gem.version       = UriParser::VERSION
